@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="main-container">
+      <span>TimeZone API</span>
+      <span> Your Current Time Zone</span>
+      <div class="data-container">
+        <div class="name-time-zone">Name Of Time Zone:&nbsp;</div>
+        <div class="lat-long-container">
+            <div class="lat">Lat:&nbsp; </div>
+            <div class="lan">Long: &nbsp;</div>
+        </div>
+        <div class="offset-std">Offset STD: &nbsp;</div>
+        <div class="offset-std-seconds">Offset STD Seconds:&nbsp; </div>
+        <div class="offset-dst">Offset DST:&nbsp; </div>
+        <div class="offset-dst-seconds">Offset DST Seconds:&nbsp; </div>
+        <div class="country">Country:&nbsp; </div>
+        <div class="postcode">Postcode: &nbsp;</div>
+        <div class="city">City:&nbsp; </div>
+
+      </div>
+      <div class="search-container">
+        <h1>Enter Address</h1>
+        <input type="text" id="address" placeholder="Address">
+        <button class="submit-btn" onclick="searchAddress()">Submit</button>
+        <div class="error-message"></div>
+        <div class="data-container">
+            <div class="name-time-zone">Name Of Time Zone:&nbsp;</div>
+            <div class="lat-long-container">
+                <div class="lat">Lat:&nbsp; </div>
+                <div class="lan">Long: &nbsp;</div>
+            </div>
+            <div class="offset-std">Offset STD: &nbsp;</div>
+            <div class="offset-std-seconds">Offset STD Seconds:&nbsp; </div>
+            <div class="offset-dst">Offset DST:&nbsp; </div>
+            <div class="offset-dst-seconds">Offset DST Seconds:&nbsp; </div>
+            <div class="country">Country:&nbsp; </div>
+            <div class="postcode">Postcode: &nbsp;</div>
+            <div class="city">City:&nbsp; </div>
+    
+          </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="./script.js"></script>
+    
+  </body>
+</html>
